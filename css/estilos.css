@@ -28,7 +28,7 @@ width: 100%;
 	  margin-left: 80px;
 
 	 animation: fadeInLeft; 
-  animation-duration: 2s; 
+     animation-duration: 2s; 
 	
 	 
 	
@@ -52,7 +52,7 @@ width: 100%;
 
 .container{
 	background: linear-gradient(#0D6161,#0C5656,black);
-	max-width: 90%;
+	max-width: 80%;
 	margin: auto;
 	border-width: 1px;
     border-style: solid;
@@ -66,34 +66,29 @@ width: 100%;
 	
 	background: #02A6B9;
 	width: 300px;
-	text-align: center;
-	margin: 10px 408px;
 	animation: zoomInDown; 
     animation-duration: 1s; 
 	border-width: 3px;
     border-style: dotted;
     border-color: black;
-	margin-left: 425px;
-	
-  
-	          
+	margin:auto;
+       
 }
 
 
 
-.card1{
+.card{
 	
   width: 200px; 
   background-color: white;
   border-radius: 8px;
-  float: left;
   animation: tada; 
   animation-duration: 2s; 
   animation-delay: 2s;
-  margin-left: 20px;
   border-width: 2px;
   border-style: dashed;
   border-color: black;
+  margin: auto;
 	
 }
 .unidad1{
@@ -114,24 +109,6 @@ width: 100%;
 }
 
 
-
-.card2{
-	
-  width: 200px;
-  background-color: white;
-  border-radius: 8px;
-  margin:0px 100px ;
-  float: left;
-  animation: tada; 
-  animation-duration: 2s; 
-  animation-delay: 2s;
-  border-width: 2px;
-  border-style: dashed;
-  border-color: black;
-
-
-
-}
 .unidad2{
   text-align: center;
   
@@ -144,20 +121,7 @@ width: 100%;
     width: 200px; height: 200px;
 }
 
-.card3{
-	
-  width: 200px;
-  background-color: white;
-  border-radius: 8px;
-  float: left;
-  animation: tada; 
-  animation-duration: 2s; 
-  animation-delay: 2s;
-   border-width: 2px;
-  border-style: dashed;
-  border-color: black;
 
-}
 .unidad3{
   text-align: center;
   font-size: 15.2px;
@@ -169,21 +133,7 @@ width: 100%;
 	margin: 0px 0px;
     width: 200px; height: 200px;
 }
-.card4{
-	
-  width: 200px;
-  background-color: white;
-  border-radius: 8px;
-  margin:0px 950px;
-  animation: tada; 
-  animation-duration: 2s; 
-  animation-delay: 2s;
-  border-width: 2px;
-  border-style: dashed;
-  border-color: black;
-  
 
-}
 .unidad4{
   text-align: center;
   padding: 8px 0px;
@@ -198,13 +148,12 @@ width: 100%;
 .evaluaciones{
 	
 	background: white;
-	width: 650;
+	width: 550;
 	border-radius: 8px;
-	margin:0px 50px ;
-	float: left;
 	border-width: 1px;
     border-style: solid;
     border-color: black;
+	margin: auto;
 	 
 	 
 
@@ -261,10 +210,10 @@ width: 100%;
 	background: white;
 	 width: 400;
 	 border-radius: 8px;
-	 margin:0px 750px ;
      border-width: 1px;
     border-style: solid;
     border-color: black;
+	margin: auto;
 	
 	
 
@@ -292,6 +241,29 @@ width: 100%;
 
 .link:active{
   color: blue;
+}
+.orden{
+	
+	width: 95%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    margin: auto;
+    padding: 20px;
+	 transition: all 300ms;
+
+}
+.orden1{
+    
+	width: 95%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    margin: auto;
+    padding: 20px;
+	 transition: all 300ms;
+	
+	
 }
 
 
