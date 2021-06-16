@@ -1,0 +1,300 @@
+body{
+background-color: white;
+width: 100%;
+
+
+}
+
+.titulo{
+
+	margin: 0px 400px;
+	font-size: 3em;
+    text-align: center;
+	color: transparent;
+	font-weight: normal;
+	background: linear-gradient(#02A6B9,black,#02A6B9);
+	-webkit-background-clip:text;
+	position: relative;
+	animation: heartBeat; 
+  animation-duration: 2s; 
+	
+	
+}
+
+.logoi{
+	
+	  width: 120px; height: 80px;
+	  float: left;
+	  margin-left: 80px;
+
+	 animation: fadeInLeft; 
+  animation-duration: 2s; 
+	
+	 
+	
+}
+
+
+
+.sub{
+	
+	margin: 0px;
+	font-size: 2.5em;
+    text-align: center;
+	color: transparent;
+	font-weight: normal;
+	background: white;
+	-webkit-background-clip:text;
+	position: relative;
+	
+	
+}
+
+.container{
+	background: linear-gradient(#0D6161,#0C5656,black);
+	max-width: 90%;
+	margin: auto;
+	border-width: 1px;
+    border-style: solid;
+    border-color: black;
+	
+	
+	
+}
+
+.temario{
+	
+	background: #02A6B9;
+	width: 300px;
+	text-align: center;
+	margin: 10px 408px;
+	animation: zoomInDown; 
+    animation-duration: 1s; 
+	border-width: 3px;
+    border-style: dotted;
+    border-color: black;
+	margin-left: 425px;
+	
+  
+	          
+}
+
+
+
+.card1{
+	
+  width: 200px; 
+  background-color: white;
+  border-radius: 8px;
+  float: left;
+  animation: tada; 
+  animation-duration: 2s; 
+  animation-delay: 2s;
+  margin-left: 20px;
+  border-width: 2px;
+  border-style: dashed;
+  border-color: black;
+	
+}
+.unidad1{
+ 
+  
+  color:black;
+  text-align: center;
+
+}
+.U1
+{
+	
+	border-radius: 8px;
+	margin: 0px 0px;
+	width: 200px; height: 200px;
+	
+	
+}
+
+
+
+.card2{
+	
+  width: 200px;
+  background-color: white;
+  border-radius: 8px;
+  margin:0px 100px ;
+  float: left;
+  animation: tada; 
+  animation-duration: 2s; 
+  animation-delay: 2s;
+  border-width: 2px;
+  border-style: dashed;
+  border-color: black;
+
+
+
+}
+.unidad2{
+  text-align: center;
+  
+  color:black;
+}
+.U2
+{
+	border-radius: 8px;
+	margin: 0px 0px;
+    width: 200px; height: 200px;
+}
+
+.card3{
+	
+  width: 200px;
+  background-color: white;
+  border-radius: 8px;
+  float: left;
+  animation: tada; 
+  animation-duration: 2s; 
+  animation-delay: 2s;
+   border-width: 2px;
+  border-style: dashed;
+  border-color: black;
+
+}
+.unidad3{
+  text-align: center;
+  font-size: 15.2px;
+  color:black;
+}
+.U3
+{
+    border-radius: 8px;
+	margin: 0px 0px;
+    width: 200px; height: 200px;
+}
+.card4{
+	
+  width: 200px;
+  background-color: white;
+  border-radius: 8px;
+  margin:0px 950px;
+  animation: tada; 
+  animation-duration: 2s; 
+  animation-delay: 2s;
+  border-width: 2px;
+  border-style: dashed;
+  border-color: black;
+  
+
+}
+.unidad4{
+  text-align: center;
+  padding: 8px 0px;
+  color:black;
+}
+.U4
+{
+	border-radius: 8px;
+	margin: 0px 0px;
+	width: 200px; height: 200px;
+}
+.evaluaciones{
+	
+	background: white;
+	width: 650;
+	border-radius: 8px;
+	margin:0px 50px ;
+	float: left;
+	border-width: 1px;
+    border-style: solid;
+    border-color: black;
+	 
+	 
+
+	
+	
+}
+
+.title{
+	
+	margin: 0px;
+	font-size: 2.5em;
+    text-align: center;
+	color: transparent;
+	font-weight: normal;
+	background: white;
+	-webkit-background-clip:text;
+	position: relative;
+ 
+}
+.tit{
+	
+	
+	background: #02A6B9;
+    text-align: center;
+	margin: 0;
+    border-radius: 8px;
+	
+
+	
+}
+.lista{
+	
+	text-align: center;
+	
+	
+}
+.segundo{
+	background: #DDE0FF;
+	margin: 0px;
+	
+	
+	
+}
+.actividades{
+	
+	 margin-top: 20px;
+     margin-bottom: 0px;
+     margin-right: 20px;
+     margin-left: 20px;
+	 text-align: justify;
+}
+.presentacion{
+	
+	background: white;
+	 width: 400;
+	 border-radius: 8px;
+	 margin:0px 750px ;
+     border-width: 1px;
+    border-style: solid;
+    border-color: black;
+	
+	
+
+	 
+
+}
+.listaNombre{
+	
+	text-align:center;
+	 margin-top: 20px;
+     margin-bottom: 0px;
+     margin-right: 20px;
+     margin-left: 20px;
+	
+}
+
+.link{
+  color:#7B1300 ;
+}
+
+.link:hover{
+  background:#F3D9FF;
+	color:7B1300;
+}
+
+.link:active{
+  color: blue;
+}
+
+
+
+
+
